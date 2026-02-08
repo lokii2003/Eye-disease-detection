@@ -1,0 +1,51 @@
+# ================= Python =================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# ================= Virtual Environment =================
+venv/
+env/
+eye/
+.venv/
+pyvenv.cfg
+
+# ================= Flask =================
+instance/
+.webassets-cache
+
+# ================= Uploaded Images =================
+static/uploads/
+
+# ================= Model Files (Large) =================
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.csv
+
+# ================= Dataset (Very Large) =================
+Dataset/
+data/
+*.zip
+*.rar
+*.7z
+
+# ================= Logs =================
+*.log
+logs/
+
+# ================= OS Files =================
+.DS_Store
+Thumbs.db
+
+
+
+# ================= VS Code =================
+.vscode/
+
+# ================= Environment Variables =================
+.env
