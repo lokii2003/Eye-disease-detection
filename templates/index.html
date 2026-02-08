@@ -22,7 +22,15 @@
 <div class="result">
 <img src="/{{ img_path }}" alt="Uploaded Image">
 <h2>Prediction: {{ label }}</h2>
+
+
+{% if label == 'Not an eye image' %}
+<p style="color:red; font-weight:bold;">
+Please upload a clear eye image.
+</p>
+{% else %}
 <p>Confidence: {{ '%.2f' % (confidence * 100) }}%</p>
+{% endif %}
 </div>
 {% endif %}
 </div>
